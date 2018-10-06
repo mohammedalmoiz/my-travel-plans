@@ -46,6 +46,13 @@ transform: rotate(-45deg);
 text-shadow: 0 0 5px #01579b;
 }
 
+.destination:hover h2 {
+transform: rotate(0deg);
+}
+
+      أضيفوا `transition: transform 0.5s;` إلى مجموعة القواعد `h2` فتصبح الآن:
+
+      ```css
 #florida {
 background-color: #03a9f4;
 }
